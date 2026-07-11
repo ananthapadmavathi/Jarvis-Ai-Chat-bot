@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jarvis AI</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Sidebar -->
+
+    <aside class="sidebar">
+
+        <h2>Jarvis</h2>
+
+        <button id="newChat">
+            <i class="fa-solid fa-plus"></i>
+            New Chat
+        </button>
+
+        <div class="conversation-list">
+
+            <div class="conversation active">
+                Conversation 1
+            </div>
+
+            <div class="conversation">
+                Conversation 2
+            </div>
+
+            <div class="conversation">
+                Conversation 3
+            </div>
+
+        </div>
+
+    </aside>
+
+    <!-- Chat Section -->
+
+    <main class="chat-section">
+
+        <div class="chat-header">
+
+            <h2>Jarvis AI Assistant</h2>
+
+        </div>
+
+        <div class="chat-box" id="chatBox">
+
+            <div class="message bot">
+                Hello 👋
+                <br>
+                I am <strong>Jarvis</strong>.
+                Ask me anything!
+            </div>
+
+        </div>
+
+        <div class="input-area">
+
+            <input
+            type="text"
+            id="userInput"
+            placeholder="Type your message...">
+
+            <button id="sendBtn">
+                <i class="fa-solid fa-paper-plane"></i>
+            </button>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
